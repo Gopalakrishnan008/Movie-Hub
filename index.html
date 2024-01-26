@@ -2,13 +2,151 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Movies-Hub</title>
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <!-- css link -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
 
-  <body>
-    <h1 class="text-orange-500 bg-red-600">GOPAL</h1>
+  <body class="bg-[#212121]">
+    <!-- Header section -->
+    <header>
+      <div class="flex justify-between items-center">
+        <!-- Menu icon -->
+        <div class="relative">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 256 256"
+            class="text-white ml-8"
+          >
+            <path
+              fill="currentColor"
+              d="M228 128a12 12 0 0 1-12 12H40a12 12 0 0 1 0-24h176a12 12 0 0 1 12 12M40 76h176a12 12 0 0 0 0-24H40a12 12 0 0 0 0 24m176 104H40a12 12 0 0 0 0 24h176a12 12 0 0 0 0-24"
+            />
+          </svg>
+          <!-- MenuBar Items -->
+          <div>
+            <ul
+              class="absolute hidden left-14 font-semibold bg-white p-3 rounded-xl"
+            >
+              <li>PROFILE</li>
+              <li>HOME</li>
+              <li>SETINGS</li>
+              <li>CATEGORYS</li>
+              <li>LANGUAGE</li>
+            </ul>
+          </div>
+        </div>
+        <!-- LOGO -->
+        <div>
+          <img
+            src="./assets/img/logo.png"
+            alt="movies-hub logo"
+            class="w-50 h-16"
+          />
+        </div>
+        <!-- Search icon -->
+        <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+            class="text-white mr-8"
+          >
+            <path
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M11 15a4 4 0 1 0 8 0a4 4 0 1 0-8 0m7.5 3.5L21 21M4 6h16M4 12h4m-4 6h4"
+            />
+          </svg>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- Banner -->
+      <div>
+        <img
+          src="https://wallpapercave.com/wp/wp4504738.png"
+          alt="docter stranger"
+          class="h-52 w-full"
+        />
+      </div>
+      <!-- New  Movies -->
+      <div>
+        <h3 class="m-3 pl-2 font-semibold text-white">New Movies</h3>
+        <div class="flex justify-around">
+          <img
+            src="https://th.bing.com/th/id/OIP.fo7DWN_tjEXAA4CWxd3HnAHaLH?w=115&h=180&c=7&r=0&o=5&pid=1.7"
+            alt="movies-banner"
+            class="bg-orange-500 rounded-lg"
+          />
+          <img
+            src="https://th.bing.com/th/id/OIP.JOR2zDkIEUjR1RAudQ-6HwHaLk?w=115&h=180&c=7&r=0&o=5&pid=1.7"
+            alt="movies-banner"
+            class="bg-red-500 rounded-lg"
+          />
+          <img
+            src="https://th.bing.com/th/id/OIP.AaK3CrJQqz4hLlXeotuLTgHaLc?w=116&h=180&c=7&r=0&o=5&pid=1.7"
+            alt="movies-banner"
+            class="bg-rose-500 rounded-lg"
+          />
+        </div>
+      </div>
+      <!-- Categorys  -->
+      <div>
+        <h3 class="text-white font-semibold m-3 pl-2">Categorys</h3>
+        <div class="flex justify-around">
+          <img
+            src="https://th.bing.com/th/id/OIP.fo7DWN_tjEXAA4CWxd3HnAHaLH?w=115&h=180&c=7&r=0&o=5&pid=1.7"
+            alt="movies-banner"
+            class="bg-orange-500 rounded-lg"
+          />
+          <img
+            src="https://th.bing.com/th/id/OIP.JOR2zDkIEUjR1RAudQ-6HwHaLk?w=115&h=180&c=7&r=0&o=5&pid=1.7"
+            alt="movies-banner"
+            class="bg-red-500 rounded-lg"
+          />
+          <img
+            src="https://th.bing.com/th/id/OIP.AaK3CrJQqz4hLlXeotuLTgHaLc?w=116&h=180&c=7&r=0&o=5&pid=1.7"
+            alt="movies-banner"
+            class="bg-rose-500 rounded-lg"
+          />
+        </div>
+      </div>
+      <!-- Languages -->
+      <div>
+        <h3 class="text-white font-semibold m-3 pl-2">Languages</h3>
+        <div class="flex justify-around">
+          <img
+            src="https://th.bing.com/th/id/OIP.fo7DWN_tjEXAA4CWxd3HnAHaLH?w=115&h=180&c=7&r=0&o=5&pid=1.7"
+            alt="movies-banner"
+            class="bg-orange-500 rounded-lg"
+          />
+          <img
+            src="https://th.bing.com/th/id/OIP.JOR2zDkIEUjR1RAudQ-6HwHaLk?w=115&h=180&c=7&r=0&o=5&pid=1.7"
+            alt="movies-banner"
+            class="bg-red-500 rounded-lg"
+          />
+          <img
+            src="https://th.bing.com/th/id/OIP.AaK3CrJQqz4hLlXeotuLTgHaLc?w=116&h=180&c=7&r=0&o=5&pid=1.7"
+            alt="movies-banner"
+            class="bg-rose-500 rounded-lg"
+          />
+        </div>
+      </div>
+    </main>
   </body>
 </html>
