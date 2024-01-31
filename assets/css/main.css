@@ -1,3 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.imghover{
+    @apply hover:translate-x-1 hover:scale-110 duration-1000;
+}
